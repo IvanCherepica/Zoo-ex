@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="158.0" y="79.0">com.zoo.example.animals.interfaces.ZooAnimal</node>
+    <node x="429.0" y="79.0">com.zoo.example.animals.abstraction.PredatoryAnimal</node>
+    <node x="297.5" y="158.0">com.zoo.example.animals.Crocodile</node>
+    <node x="14.75" y="158.0">com.zoo.example.animals.Horse</node>
+    <node x="240.25" y="0.0">com.zoo.example.animals.abstraction.Animal</node>
+    <node x="59.25" y="232.0">com.zoo.example.users.User</node>
+    <node x="496.75" y="158.0">com.zoo.example.animals.Dog</node>
+    <node x="232.0" y="311.0">com.zoo.example.staff.Meat</node>
+    <node x="106.0" y="311.0">com.zoo.example.users.Visitor</node>
+    <node x="285.0" y="79.0">com.zoo.example.animals.interfaces.DangerAnimal</node>
+    <node x="327.0" y="311.0">com.zoo.example.staff.Grass</node>
+    <node x="279.75" y="232.0">com.zoo.example.staff.Food</node>
+    <node x="0.0" y="79.0">com.zoo.example.animals.abstraction.HerbivoreAnimal</node>
+    <node x="0.0" y="311.0">com.zoo.example.users.Worker</node>
+    <node x="152.25" y="158.0">com.zoo.example.animals.Turtle</node>
+    <node x="448.0" y="232.0">com.zoo.example.Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.zoo.example.animals.Horse" target="com.zoo.example.animals.interfaces.ZooAnimal">
+      <point x="19.75" y="-14.5" />
+      <point x="74.0" y="138.0" />
+      <point x="175.83333333333337" y="138.0" />
+      <point x="-35.66666666666666" y="14.5" />
+    </edge>
+    <edge source="com.zoo.example.staff.Grass" target="com.zoo.example.staff.Food">
+      <point x="0.0" y="-14.5" />
+      <point x="365.0" y="286.0" />
+      <point x="336.0" y="286.0" />
+      <point x="18.75" y="14.5" />
+    </edge>
+    <edge source="com.zoo.example.users.Worker" target="com.zoo.example.users.User">
+      <point x="0.0" y="-14.5" />
+      <point x="43.0" y="286.0" />
+      <point x="77.0" y="286.0" />
+      <point x="-17.75" y="14.5" />
+    </edge>
+    <edge source="com.zoo.example.users.Visitor" target="com.zoo.example.users.User">
+      <point x="0.0" y="-14.5" />
+      <point x="146.5" y="286.0" />
+      <point x="112.5" y="286.0" />
+      <point x="17.75" y="14.5" />
+    </edge>
+    <edge source="com.zoo.example.animals.abstraction.HerbivoreAnimal" target="com.zoo.example.animals.abstraction.Animal">
+      <point x="0.0" y="-14.5" />
+      <point x="69.0" y="54.0" />
+      <point x="261.75" y="54.0" />
+      <point x="-21.5" y="14.5" />
+    </edge>
+    <edge source="com.zoo.example.animals.Crocodile" target="com.zoo.example.animals.interfaces.DangerAnimal">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.zoo.example.animals.Horse" target="com.zoo.example.animals.abstraction.HerbivoreAnimal">
+      <point x="-19.75" y="-14.5" />
+      <point x="-34.5" y="14.5" />
+    </edge>
+    <edge source="com.zoo.example.animals.Crocodile" target="com.zoo.example.animals.interfaces.ZooAnimal">
+      <point x="-33.0" y="-14.5" />
+      <point x="314.0" y="138.0" />
+      <point x="247.16666666666669" y="138.0" />
+      <point x="35.66666666666666" y="14.5" />
+    </edge>
+    <edge source="com.zoo.example.animals.Dog" target="com.zoo.example.animals.abstraction.PredatoryAnimal">
+      <point x="0.0" y="-14.5" />
+      <point x="34.25" y="14.5" />
+    </edge>
+    <edge source="com.zoo.example.animals.Turtle" target="com.zoo.example.animals.interfaces.ZooAnimal">
+      <point x="19.75" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.zoo.example.animals.Crocodile" target="com.zoo.example.animals.abstraction.PredatoryAnimal">
+      <point x="33.0" y="-14.5" />
+      <point x="380.0" y="138.0" />
+      <point x="463.25" y="138.0" />
+      <point x="-34.25" y="14.5" />
+    </edge>
+    <edge source="com.zoo.example.animals.abstraction.PredatoryAnimal" target="com.zoo.example.animals.abstraction.Animal">
+      <point x="0.0" y="-14.5" />
+      <point x="497.5" y="54.0" />
+      <point x="304.75" y="54.0" />
+      <point x="21.5" y="14.5" />
+    </edge>
+    <edge source="com.zoo.example.animals.Turtle" target="com.zoo.example.animals.abstraction.HerbivoreAnimal">
+      <point x="-19.75" y="-14.5" />
+      <point x="172.0" y="128.0" />
+      <point x="103.5" y="128.0" />
+      <point x="34.5" y="14.5" />
+    </edge>
+    <edge source="com.zoo.example.staff.Meat" target="com.zoo.example.staff.Food">
+      <point x="0.0" y="-14.5" />
+      <point x="269.5" y="286.0" />
+      <point x="298.5" y="286.0" />
+      <point x="-18.75" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="663.5" y="380.5" />
+  <SelectedNodes>
+    <node>com.zoo.example.animals.interfaces.ZooAnimal</node>
+    <node>com.zoo.example.animals.abstraction.PredatoryAnimal</node>
+    <node>com.zoo.example.animals.Crocodile</node>
+    <node>com.zoo.example.animals.Horse</node>
+    <node>com.zoo.example.animals.abstraction.Animal</node>
+    <node>com.zoo.example.users.User</node>
+    <node>com.zoo.example.animals.Dog</node>
+    <node>com.zoo.example.staff.Meat</node>
+    <node>com.zoo.example.users.Visitor</node>
+    <node>com.zoo.example.animals.interfaces.DangerAnimal</node>
+    <node>com.zoo.example.staff.Grass</node>
+    <node>com.zoo.example.staff.Food</node>
+    <node>com.zoo.example.animals.abstraction.HerbivoreAnimal</node>
+    <node>com.zoo.example.users.Worker</node>
+    <node>com.zoo.example.animals.Turtle</node>
+    <node>com.zoo.example.Main</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
